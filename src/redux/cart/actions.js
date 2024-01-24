@@ -1,21 +1,21 @@
-import cartActionTypes from "./action-types";
+import CartActionTypes from "./action-types";
 
 export const addProductToCart = (payload) => ({
-  type: cartActionTypes.ADD_PRODUCT,
+  type: CartActionTypes.ADD_PRODUCT,
   payload
 })
 
 export const removeProductFromCart = (payload) => ({
-  type: cartActionTypes.REMOVE_PRODUCT,
+  type: CartActionTypes.REMOVE_PRODUCT,
   payload
 })
 
 export const increaseProductQuantity = (payload) => ({
-  type: cartActionTypes.INCREASE_PRODUCT_QUANTITY,
+  type: CartActionTypes.INCREASE_PRODUCT_QUANTITY,
   payload
 })
 
 export const decreaseProductQuantity = (payload) => ({
-  type: cartActionTypes.DECREASE_PRODUCT_QUANTITY,
+  type: CartActionTypes.DECREASE_PRODUCT_QUANTITY,
   payload
 })
