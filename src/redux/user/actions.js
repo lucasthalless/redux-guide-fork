@@ -2,7 +2,7 @@ import userActionTypes from "./action-types";
 
 export const userLogin = (payload) => ({
   type: userActionTypes.LOGIN,
-  payload: payload
+  payload
 })
 
 export const userLogout = () => ({
